@@ -1,0 +1,34 @@
+.orders-list {
+    width: 100%;
+}
+
+.order-card {
+    padding: 10px;
+}
+
+.order-header {
+    flex-direction: row;
+}
+
+.order-info {
+    flex-direction: row;
+    gap: 8px;
+}
+
+.order-info span:nth-child(2) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@media (min-width: 900px) {
+
+    .products-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .bottom-nav {
+        max-width: 1200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
